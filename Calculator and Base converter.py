@@ -74,11 +74,11 @@ def hexToBin(hexNum):
 
     return binaryNum
 
-def askForInput(usedEq1, usedEq2):
+def askForInput(usedOperation1, usedOperation2):
     global num1
     global num2
-    num1 = int(input("Enter the first number you would like to " + usedEq1 + ":\n"))
-    num2 = int(input("Enter the second number you would like to " + usedEq2 + ":\n"))
+    num1 = int(input("Enter the first number you would like to " + usedOperation1 + ":\n"))
+    num2 = int(input("Enter the second number you would like to " + usedOperation2 + ":\n"))
     
     return num1, num2
     
